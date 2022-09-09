@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: 0;
+}
+
+h1{
+    padding: 5px;
+    color: brown;
+}
+
+h3{
+    padding: 10px;
+    color: darkblue;
+}
+
+h3::after{
+    content: ':'
+}
+
+ul{
+    padding-left: 50px;
+}
