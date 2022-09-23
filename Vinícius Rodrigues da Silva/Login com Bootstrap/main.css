@@ -1,0 +1,66 @@
+body {
+	background-image: url(/Login\ Bootstrap\ BG.png);
+	font-family: 'Rajdhani', sans-serif;
+}
+
+h1 {
+	margin-top: 10px;
+	margin-bottom: -20px;
+}
+
+.main-div {
+	margin-top: 350px;
+	position: inherit;
+}
+
+.btn-primary {
+	margin: 50px;
+	margin-bottom: 40px;
+	background-color: rgba(210, 178, 255, 1);
+	border-color: rgba(251, 204, 255, 1);
+	padding: 5px 40px 5px 40px;
+}
+
+.btn:first-child:hover,
+:not(.btn-check) + .btn:hover {
+	color: whitesmoke;
+	background-color: violet;
+	border-color: violet;
+	padding: 5px 40px 5px 40px;
+}
+
+.btn:focus {
+	background-color: #d6d4d1;
+	border-color: #d6d4d1;
+	color: #666;
+}
+
+#usuario {
+	color: #black;
+	padding: 10px;
+	margin-top: 50px;
+	border: 0;
+	border-radius: 10px;
+	background: rgba(10, 10, 10, 0.05);
+}
+
+#senha {
+	margin-top: 50px;
+	color: #black;
+	padding: 10px;
+	border: 0;
+	border-radius: 10px;
+	background: rgba(10, 10, 10, 0.05);
+}
+
+input::placeholder {
+	color: black;
+}
+
+.card {
+	background: rgba(255, 255, 255, 0.5);
+	width: 450px;
+	border-radius: 20px;
+	border: 0;
+	box-shadow: 10px 10px 10px rgba(150, 150, 150, 0.5);
+}
