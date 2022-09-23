@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+        integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"
+        integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Login - Semantic UI</title>
+    <style type="text/css">
+        body{
+          background-color: #dee2e6;
+        }
+        body > .grid {
+          height: 100%;
+        }
+        .column {
+          max-width: 450px;
+        }
+        #box{
+          height: 300px;
+        }
+        #email{
+          margin-top: 50px;
+          margin-bottom: 30px;
+        }
+        #botao{
+          margin-top: 30px;
+        }
+      </style>
+</head>
+
+<body>
+    <div class="ui grid middle aligned container center aligned ui grid">
+        <div class="column box">
+          <h1 class="ui  header">
+            LOGIN
+          </h1>
+          <form  class="ui large form teste">
+            <div id="box" class="ui stacked segment">
+              <div id="email" class="field">
+                <div class="ui left icon input">
+                  <i class="user icon"></i>
+                  <input type="text" name="email" placeholder="email@gmail.com ">
+                </div>
+              </div>
+              <div class="field">
+                <div class="ui left icon input">
+                  <i class="lock icon"></i>
+                  <input type="password" name="password" placeholder="Password">
+                </div>
+              </div>
+              <button id="botao" class="ui fluid large primary submit button">Entrar</button>
+            </div>
+            <div class="ui error message"></div>
+      
+          </form>
+    
+          <div class="ui message">
+            Não possui conta ?  <a href="#"> Criar nova conta</a>
+          </div>
+        </div>
+      </div>
+
+</body>
+
+</html>
