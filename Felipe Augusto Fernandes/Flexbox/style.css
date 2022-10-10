@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#f{
+    flex-wrap: wrap;
+
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(72, 72, 255);
+    border-radius: 100px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#box1 {
+    margin-top: 10px;
+    width: 300px;
+    height: 100px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 100px;
+    border-radius: 10px;
+    
+}
+
+#box2 {
+    margin-top: 140px;
+    width: 300px;
+    height: 100px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: -300px;
+    border-radius: 10px;
+    
+}
+
+
+.nome{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(2, 221, 221);
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+
+.resumo{
+    width: 100px;
+    height: 200px;
+    background-color: aqua;
+    margin-top: 103px;
+    margin-left: -100px;
+    
+}
+
+.hr{
+    margin-top: 5px;
+    height: 2px;
+    background-color: black;
+    
+}
+
+#logofatec{
+    width: 200px;
+    height: 100px;
+    
+
+}
+
+
+img{
+    
+    width: 250px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+
