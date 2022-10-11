@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    border: 2px solid;
+    background-color: rgb(222, 199, 252);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container{
+    flex-direction: row;
+}
+
+.container2{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#logotipo{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+#flexbox-1 {
+    width: 220px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: 2px solid;
+    background-color: #fff;
+}
+
+#flexbox-2 {
+    width: 220px;
+    height: 70px;
+    margin-top: 140px;
+    margin-left: -225px;
+    border-radius: 5px;
+    border: 2px solid;
+    background-color: #fff;
+}
+
+.hr{
+    height: 3px;
+    margin-top: 15px;
+    background-color: black;   
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.efeito{
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border: 2px solid;
+    background-color: rgb(158, 40, 255);
+}
+
+.texto{
+    width: 130px;
+    height: 180px;
+    margin-top: 60px;
+    margin-left: -100px;
+    border: 2px solid;
+}
+
+.img2{
+    width: 662px;
+    height: 108px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
