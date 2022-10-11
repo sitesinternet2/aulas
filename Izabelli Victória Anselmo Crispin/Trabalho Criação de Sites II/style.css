@@ -1,0 +1,586 @@
+h1 {
+    text-align: center;
+}
+*{
+    background-color: rgb(233, 233, 233);
+}
+/*--LOGO--*/
+
+#redonda {
+    width: 280px;
+    height: 285px;
+    border-radius: 50%;
+}
+
+/*--LOGO FATEC--*/
+
+img{
+    width: 30%;
+    display: flex;
+    margin-left: 35%;
+}
+
+/*--NOME, RA, DISCIPLINA--*/
+
+p {
+    display: inline-flex;
+    margin-left: 60px;
+
+}
+
+.container-nome {
+    display: flex;
+}
+
+/*--FLEX--*/
+
+.flex-container {
+    border: 5px solid black;
+    display: flex;
+}
+
+.flex-item {
+    border: solid 2px blueviolet;
+    background-color: rgb(255, 255, 104);
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--JUSTIFY CONTENT FLEX START--*/
+
+.flex-container-2 {
+    border: 5px solid black;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-item-2 {
+    border: solid 2px blueviolet;
+    background-color: rgb(240, 247, 255);
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--FLEX END--*/
+
+.flex-container-2 {
+    border: 5px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-item-2 {
+    border: solid 2px blueviolet;
+    background-color: azure;
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--FLEX CENTER--*/
+
+.flex-container-3 {
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item-3 {
+    border: solid 2px blueviolet;
+    background-color: azure;
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--SPACE AROUND--*/
+
+.flex-container-4 {
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item-4 {
+    border: solid 2px blueviolet;
+    background-color: azure;
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--SPACE BETWEEN--*/
+
+.flex-container-5 {
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item-5 {
+    border: solid 2px blueviolet;
+    background-color: azure;
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--SPACE EVENLY--*/
+
+.flex-container-6 {
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-item-6 {
+    border: solid 2px blueviolet;
+    background-color: azure;
+    font-size: 28px;
+    padding: 15px;
+}
+
+
+/*--FLEX DIRECTION ROW--*/
+
+.flex-container-7 {
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item-7 {
+    border: solid 2px blueviolet;
+    background-color: rgb(135, 255, 126);
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--FLEX DIRECTION ROW REVERSE--*/
+
+.flex-container-8 {
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-item-8 {
+    border: solid 2px blueviolet;
+    background-color: rgb(135, 255, 126);
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--FLEX DIRECTION COLUMN--*/
+
+.flex-container-9 {
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item-9 {
+    border: solid 2px blueviolet;
+    background-color: rgb(135, 255, 126);
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--FLEX DIRECTION COLUMN REVERSE--*/
+
+.flex-container-10 {
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flex-item-10 {
+    border: solid 2px blueviolet;
+    background-color: rgb(135, 255, 126);
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--ALIGN CONTENT FLEX START--*/
+
+.flex-container-11 {
+    border: 5px solid black;
+    width: 99%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.flex-item-11 {
+    border: solid 2px blueviolet;
+    background-color: rgb(255, 108, 238);
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--ALIGN CONTENT FLEX END--*/
+
+.flex-container-12 {
+    border: 5px solid black;
+    width: 99%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.flex-item-12 {
+    border: solid 2px blueviolet;
+    background-color: rgb(255, 108, 238);
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--ALIGN CONTENT CENTER--*/
+
+.flex-container-13 {
+    border: 5px solid black;
+    width: 99%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.flex-item-13 {
+    border: solid 2px blueviolet;
+    background-color: rgb(255, 108, 238);
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--ALIGN CONTENT SPACE AROUND--*/
+
+.flex-container-14 {
+    border: 5px solid black;
+    width: 99%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.flex-item-14 {
+    border: solid 2px blueviolet;
+    background-color: rgb(255, 108, 238);
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--ALIGN CONTENT SPACE BETWEEN--*/
+
+.flex-container-15 {
+    border: 5px solid black;
+    width: 99%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.flex-item-15 {
+    border: solid 2px blueviolet;
+    background-color: rgb(255, 108, 238);
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--ALIGN CONTENT STRETCH--*/
+
+.flex-container-16 {
+    border: 5px solid black;
+    width: 99%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.flex-item-16 {
+    border: solid 2px blueviolet;
+    background-color: rgb(255, 108, 238);
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--FLEX WRAP WRAP--*/
+
+.flex-container-17 {
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item-17 {
+    border: solid 2px blueviolet;
+    background-color: rgb(62, 250, 172);
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--FLEX WRAP NOWRAP--*/
+
+.flex-container-18 {
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-item-18 {
+    border: solid 2px blueviolet;
+    background-color: rgb(62, 250, 172);
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--FLEX WRAP WRAP REVERSE--*/
+
+.flex-container-19 {
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap-reverse
+}
+
+.flex-item-19 {
+    border: solid 2px blueviolet;
+    background-color: rgb(62, 250, 172);
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--ALIGN ITEMS FLEX START--*/
+
+.flex-container-20 {
+    border: 5px solid black;
+    width: 99%;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-item-20 {
+    border: solid 2px blueviolet;
+    background-color: #a1fff9;
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--ALIGN ITEMS FLEX END--*/
+
+.flex-container-21 {
+    border: 5px solid black;
+    width: 99%;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex-item-21 {
+    border: solid 2px blueviolet;
+    background-color: #a1fff9;
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--ALIGN ITEMS CENTER--*/
+
+.flex-container-22 {
+    border: 5px solid black;
+    width: 99%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.flex-item-22 {
+    border: solid 2px blueviolet;
+    background-color: #a1fff9;
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--ALIGN ITEMS STRETCH--*/
+
+.flex-container-23 {
+    border: 5px solid black;
+    width: 99%;
+    height: 400px;
+    display: flex;
+    align-items: stretch;
+}
+
+.flex-item-23 {
+    border: solid 2px blueviolet;
+    background-color: #a1fff9;
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--ALIGN ITEMS BASELINE--*/
+
+.flex-container-24 {
+    border: 5px solid black;
+    width: 99%;
+    height: 400px;
+    display: flex;
+    align-items: baseline;
+}
+
+.flex-item-24 {
+    border: solid 2px blueviolet;
+    background-color: #a1fff9;
+    font-size: 28px;
+    padding: 15px;
+}
+
+/*--FLEX BASIS--*/
+
+.flex-container-25 {
+    border: 5px solid black;
+    display: flex;
+}
+
+.flex-item-25 {
+    border: solid 2px blueviolet;
+    background-color: rgb(254, 61, 58);
+    font-size: 28px;
+    padding: 15px;
+    flex-basis: 100px;
+}
+
+/*--FLEX SHRINK--*/
+
+.flex-container-26 {
+    border: 5px solid black;
+    display: flex;
+}
+
+.flex-item-26 {
+    border: solid 2px blueviolet;
+    background-color: rgb(254, 61, 58);
+    font-size: 28px;
+    padding: 15px;
+    flex-shrink: 1;
+}
+
+/*--FLEX SHRINK--*/
+
+.flex-container-27 {
+    border: 5px solid black;
+    display: flex;
+}
+
+.flex-item-27 {
+    border: solid 2px blueviolet;
+    background-color: rgb(254, 61, 58);
+    font-size: 28px;
+    padding: 15px;
+    flex-grow: 1;
+}
+
+/*--FLEX ALIGN SELF AUTO--*/
+
+.flex-container-28 {
+    border: 5px solid black;
+    width: 99%;
+    height: 400px;
+    display: flex;
+}
+
+.flex-item-28 {
+    border: solid 2px blueviolet;
+    background-color: rgb(255, 101, 255);
+    font-size: 28px;
+    padding: 15px;
+    align-self: auto;
+}
+
+/*--FLEX ALIGN SELF FLEX START--*/
+
+.flex-container-29 {
+    border: 5px solid black;
+    width: 99%;
+    height: 400px;
+    display: flex;
+}
+
+.flex-item-29 {
+    border: solid 2px blueviolet;
+    background-color: rgb(255, 101, 255);
+    font-size: 28px;
+    padding: 15px;
+    align-self: flex-start;
+}
+
+/*--FLEX ALIGN SELF FLEX END--*/
+
+.flex-container-29 {
+    border: 5px solid black;
+    width: 99%;
+    height: 400px;
+    display: flex;
+}
+
+.flex-item-29 {
+    border: solid 2px blueviolet;
+    background-color: rgb(255, 101, 255);
+    font-size: 28px;
+    padding: 15px;
+    align-self: flex-end;
+}
+
+/*--FLEX ALIGN SELF CENTER--*/
+
+.flex-container-30 {
+    border: 5px solid black;
+    width: 99%;
+    height: 400px;
+    display: flex;
+}
+
+.flex-item-30 {
+    border: solid 2px blueviolet;
+    background-color: rgb(255, 101, 255);
+    font-size: 28px;
+    padding: 15px;
+    align-self: center;
+}
+
+/*--FLEX ALIGN SELF BASELINE--*/
+
+.flex-container-31 {
+    border: 5px solid black;
+    width: 99%;
+    height: 400px;
+    display: flex;
+}
+
+.flex-item-31 {
+    border: solid 2px blueviolet;
+    background-color: rgb(255, 101, 255);
+    font-size: 28px;
+    padding: 15px;
+    align-self: baseline;
+}
+
+/*--FLEX ALIGN ORDER--*/
+
+.flex-container-32 {
+    border: 5px solid black;
+    display: flex;
+}
+
+.flex-item-32 {
+    border: solid 2px blueviolet;
+    background-color: rgb(251, 152, 31);
+    font-size: 28px;
+    padding: 15px;
+}
+
+.flex-item-32:nth-of-type(2) {
+    background-color: blue;
+    color: #fff;
+    order: 1;
+}
