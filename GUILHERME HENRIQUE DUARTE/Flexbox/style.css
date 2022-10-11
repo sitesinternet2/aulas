@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: #D2E8E3;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#logo{
+    width: 155px;
+    height: 155px;
+    border-radius: 100px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#quadro {
+    margin-top: 10px;
+    width: 300px;
+    height: 100px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 100px;
+    border-radius: 10px;
+    
+}
+
+#quadro2 {
+    margin-top: 140px;
+    width: 325px;
+    height: 105px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: -300px;
+    border-radius: 10px;
+    
+}
+
+
+img{
+    
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.hr_home { 
+    margin-top: 13px;
+    height: 2px;
+    background-color: #0f6466;
+    
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        border: 2px solid black;
+        max-width: 310px;
+    }
+    
+    .item{
+        font-size: 24px;
+        height: 50%;
+        text-align: center;
+        min-width: 100px;
+        line-height: 50px;
+    }
+    
+    .nowrap{
+        flex-wrap: nowrap;
+    }
+    
+    .wrap{
+        flex-wrap: wrap;
+    }
+    
+    .wrap-reverse{
+        flex-wrap: wrap-reverse;
+    }
+    
+    .blue{
+        background-color: blue;
+    }
+    
+    .green{
+        background-color: lightgreen;
+    }
+    
+    .orange{
+        background-color: orangered;
+    }
+
+    
+    .container2 {
+
+        width: 50%;
+        height: 67vh;
+        background-color: gray;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: baseline;
+        align-content: center;
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+    
+      
+
+      .produto{
+        width: 8rem;
+        height: 2rem;
+        background-color: blueviolet;
+        margin: 5px;
+        color: white;
+        text-align: center;
+        flex: 1;
+        border: 2px solid;
+        align-self: stretch;
+        order: 5;
+    }
+
+    footer{
+        background-color: rgb(183, 183, 118);
+        height: 100%;
+        display: flex;
+    }
+
+    #identidade{
+        width: 20%;
+        height: 20%;
+        justify-content: space-between;
+        align-items: center;
+        
+
+    }
+    
+   
+    
+   
+
+    
