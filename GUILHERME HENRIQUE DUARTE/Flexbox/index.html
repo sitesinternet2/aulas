@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox</title>
+</head>
+<body>
+    <header>
+    <div>
+
+        <div>
+            <div id="logo">
+               <img src="Foto.jpeg" alt="Foto do Desenvolvedor : Guilherme Henrique Duarte">
+            </div>
+
+        </div>
+
+
+        <div>
+            <div id="quadro">
+                Nome: Guilherme Henrique Duarte <br>
+                RA: 0220832211018 <br>
+                Diciplina: Criação de Sites 2
+            
+            
+            </div>
+            <div id="quadro2">
+               GitHub: https://github.com/guilherme-duart <br>
+               Linkedin:https://www.linkedin.com/in/guilherme-duarte-155921236/ <br>
+          
+            </div>
+            
+        </div>
+    </div>
+
+     <hr class="hr_home">
+
+    </header>
+
+    <main>
+        <h1>no wrap</h1>
+        <p>Os itens flexíveis são agrupados em uma unica linha, o que pode fazer com que o flex container transborde. O cross-start é equivalente ao início ou antes, dependendo do valor da flex-direction.</p>
+
+        <div class="flex-container nowrap">
+        <div class="item orange">1</div>
+        <div class="item green">2</div>
+        <div class="item blue">3</div>
+        <div class="item orange">4</div>
+        </div>
+
+        <br>
+        
+       <br></br> <h1>wrap<br></h1> 
+       <p>Os itens flexíveis são quebrados em multiplas linhas. O cross-start é equivalente a iniciar ou antes dependendo do valor do flex-direction e cross-end é o oposto do especificado cross-start.</p> 
+        
+        <div class="flex-container wrap">
+        <div class="item green">1</div>
+        <div class="item blue">2</div>
+        <div class="item orange">3</div>
+        <div class="item orange">4</div>
+        </div>
+        
+        <h1>wrap reverse</h1>
+        <p>Se comporta da mesma maneira que o wrap mas a de linha ocorre na direção contrária, ou seja, para a linha acima.</p>
+        
+        <div class="flex-container wrap-reverse">
+        <div class="item green">1</div>
+        <div class="item blue">2</div>
+        <div class="item orange">3</div>
+        <div class="item orange">4</div>
+        </div>
+    </main>
+   
+    <hr class="hr_home"> <br>
+
+     <h1>Exemplo 2 </h1> <br>
+     <h3>Order: Os itens Flex são exibidos na mesma ordem em que aparecem no documento de origem por padrão. A order propriedade pode ser usada para alterar essa ordem. </h3><br>
+     <h3>Align-self stretch: Se o tamanho combinado dos itens ao longo do eixo cruzado for menor que o tamanho do contêiner de alinhamento e o item for auto-size, seu tamanho será aumentado igualmente (não proporcionalmente), respeitando as restrições impostas por max-height/ max-width(ou funcionalidade equivalente) , para que o tamanho combinado de todos autoos itens de tamanho preencha exatamente o contêiner de alinhamento ao longo do eixo cruzado. </h3>
+
+ <section>
+    <div class="container2">
+
+            <div class="produto">Item-01</div>
+            <div class="produto">Item-02</div>
+            <div class="produto">Item-03</div>
+            <div class="produto">Item-04</div>
+            <div class="produto">Item-05</div>
+
+            <div class="produto">Item-06</div>
+            <div class="produto">Item-07</div>
+            <div class="produto">Item-08</div>
+            <div class="produto">Item-09</div>
+            <div class="produto">Item-10</div>
+        </div>
+
+    </div> 
+
+</section>
+
+<footer>
+    <img id="identidade"src="Fatec_Logo.png" alt="Logo Fatec">
+</footer>
+</body>
+</html>
