@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body class="flexbox">
+    <header>
+    <div class="container" id="container">
+        <div><img id="fotinha" src="../FlexBox/img/IMG_20171031_173025156.jpg" alt="uma foto minha"></div>
+        <div class="flex-item">
+            <ul>
+                <span id="title"><b>Nome:</b></span>
+                <div id="resp">Gabriel Novais Cavalcante</div>
+                <span id="title"><b>R.A:</b></span>
+                <div id="resp">0220482212046</div>
+                <span id="title"><b>Diciplina:</b></span>
+                <div id="resp">Criação de Sites 2</div>
+              </ul>
+        </div>
+        <div class="flex-item ">
+            <ul>
+                <span id="title"><b>GitHub:</b></span> <br><br>
+                  <a href="https://github.com/GabListeM">GabListeM</a> <br><br>
+                <span id="title"><b>Linkedin:</b></span><br><br>
+                <a href="https://www.linkedin.com/in/biel-cavalcante-37533a16b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BqaGgCsn3Rm%2Bd9IsP0YazrA%3D%3D">Biel Cavalcante</a>
+              </ul>
+        </div>
+        
+     </header>
+
+    
+    </div>
+    <div class="container2">
+       
+        <div class="flex-item">
+            <div class="titulo"><h2 style="color: rgb(107, 107, 231);">PROPRIEDADES PARA O ELEMENTO-PAI</h2><br>
+            <h4 style="color: rgb(107, 107, 231);"><B>FLEX-DIRECTION</B></h4>
+            <img id="foto" src="../FlexBox/img/flex-direction.svg" alt="">
+            <p style="margin-top:-62px;"><b>Estabelece o eixo principal, definindo assim a direção em que os flex items são alinhados no flex container.</b></p>
+       
+         </div>
+       </div>
+
+     <div class="flex-item"> 
+     <div class="titulo"><h2 style="color: rgb(107, 107, 231);">PROPRIEDADES PARA ELEMENTOS-FILHOS</h2><br> 
+     <h4 style="padding: 20px; margin-top: -10px;color: rgb(107, 107, 231);margin-top: -35px;"><b>ORDER</b></h4>
+     <br><br>
+     <img style="margin-top:-50px; height: 150px;"id="foto" src="./img/order.svg" alt="">
+     <p style="margin-left:180px; margin-top: -150px;"><b>Por padrão os flex items são dispostos na tela na ordem do código. Mas a propriedade <i>order</i> controla a ordem em que aparecerão no container.</b></p>
+     </div>
+     </div>     
+     <br><br><br><br>
+     <div class="flex-item">
+        <h4 style="padding: 20px; margin-top: -10px;color: rgb(107, 107, 231);"><B>FLEX-WRAP</B></h4>
+        <img id="foto" src="./img/flex-wrap.svg" alt="">
+        <p style="margin-top:-62px; padding:3px;"><b>Por padrão, os flex items vão todos tentar se encaixar em uma só linha. 
+            Com esta propriedade você pode modificar esse comportamento e permitir 
+            que os ítens quebrem para uma linha seguinte conforme for necessário</b></p>
+       </div>
+       <div class="flex-item">
+        <h4 style="padding: 20px; margin-top: -10px;color: rgb(107, 107, 231);"><B>FLEX-GROW</B></h4>
+        <img style="margin-top: -70px;" id="foto" src="./img/flex-grow.svg" alt="">
+        <p style="margin-left:0px; margin-top:-70px; font-size: small;"><b>Define a habilidade de um flex item de crescer, caso necessário. O valor dessa propriedade é um valor numérico sem indicação de unidade, que serve para cálculo de proporção. Este valor dita a quantidade de espaço disponível no container que será ocupado pelo item.
+            Se todos os ítens tiverem flex-grow definido em 1, o espaço remanescente no container será distribuído de forma igual entre todos.</b></p>
+       </div>
+       <div class="flex-item">
+        <h4 style="padding: 20px; margin-top: -10px;color: rgb(107, 107, 231);"><B>FLEX-FLOW</b></h4>
+           <p><b>A propriedade flex-flow é uma propriedade shorthand (uma mesma declaração inclui vários valores relacionados a mais de uma propriedade) que inclui flex-direction e flex-wrap. 
+               Determina quais serão os eixos pricipal e transversal do container. O valor padrão é row nowrap.</b></p>
+        </div>
+        <div class="flex-item">
+            <h4 style="padding:20px;color: rgb(107, 107, 231);">FLEX-SHRINK</h4>
+            <p><b>Define a habilidade de um flex item de encolher, caso necessário.</b></p>
+            <h4 style="padding: 10px;color: rgb(107, 107, 231);">FLEX-BASIS</h4>
+            <p><b>Define o tamanho padrão para um elemento antes que o espaço remanescente do container seja distribuído. 
+                Pode ser um comprimento (por exemplo, 20%, 5rem, etc) ou uma palavra-chave.</b></p>
+        </div>
+        <div class="flex-item">
+            <h4 style="padding: 10px;color: rgb(107, 107, 231);"><b>JUSTIFY-CONTENT</b></h4>
+            <img style="margin-top:-10px; height: 180px;"id="foto1" src="./img/justify-content.svg" alt="">
+            <p style="margin-left:180px; margin-top: -180px;"><b>Esta propriedade define o alinhamento dos ítens ao longo do eixo principal. Ajuda a distribuir o espaço livre que sobrar no 
+                container tanto se todos os flex items em uma linha são inflexíveis, ou são flexíveis mas já atingiram seu tamanho máximo.</b></p>
+         </div>
+         <div class="flex-item">
+            <h4 style="padding: 10px;color: rgb(107, 107, 231);"><b>FLEX</b></h4>
+            <p><b>Esta é a propriedade shorthand para <i>flex-grow</i>, <i>flex-shrink</i> e <i>flex-basis</i>, combinadas. O segundo e terceiro parâmetros (<i>flex-shrink</i> e <i>flex-basis</i>) 
+                são opcionais. O padrão é 0 1 auto, mas se você definir com apenas um número, é equivalente a 0 1.
+                <a style="text-decoration:underline;">É recomendado que você utilize esta propriedade shorthand</a> ao invés de definir cada uma das propriedades em separado. O shorthand define os outros valores de forma inteligente.
+            </b></p>color: rgb(107, 107, 231);
+         </div>
+         <div class="flex-item">
+            <h4 style="padding: 5px; color: rgb(107, 107, 231);"><b>ALIGN-ITEMS</b></h4>
+            <img style="margin-top:-10px; height: 180px;" id="foto" src="./img/align-items.svg" alt="">
+            <p style="margin-left:180px; margin-top: -180px;"><b>define o comportamento padrão de como flex items são alinhados de acordo com o eixo transversal (cross axis). De certa forma, funciona de forma similar ao justify-content, porém no eixo transversal (perpendicular ao eixo principal).</b></p>
+         </div>
+         <div class="flex-item">
+            <h4 style="padding: 5px; color: rgb(107, 107, 231);">ALIGN-SELF</h4>
+            <img id="foto" src="./img/align-self.svg" alt="">
+            <p style="margin-left:5px; margin-top: -50px;"><b>Permite que o alinhamento padrão (ou o que estiver definido por <i>align-items</i>) seja sobrescrito para ítens individuais.</b></p>
+         </div>
+         <div class="flex-item">
+            <h4 style="padding: 5px;color: rgb(107, 107, 231);"><b>ALIGN-CONTENT</b></h4>
+            <img style="margin-top:-10px; height: 180px;" id="foto" src="./img/align-content.svg" alt="">
+            <p style="margin-left:180px; margin-top: -180px;"><b>Organiza as linhas dentro de um flex container quando há espaço extra no eixo transversal, similar ao modo como justify-content alinha ítens individuais dentro do eixo principal.
+               <br>
+               <span style="text-decoration:underline;"> Importante: </span>Esta propriedade não tem efeito quando há somente uma linha de flex items no container.</b></p>
+         </div>
+    </div>
+    <div class="container3">
+        <footer>
+            <img src="./img/fatec_2.png" alt="">
+            <img src="./img/cpssp.png" alt="">
+        </footer>
+    </div>
+
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+ 
+</body>
+
+</html>

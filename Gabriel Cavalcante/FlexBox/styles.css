@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300;1,500&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,500;1,600;1,700&family=Quicksand:wght@400;500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+  background-image: url(./img/banner.png);
+  /* background-repeat: no-repeat; */
+}
+div {
+    margin: 10px;
+   --height: 300px;
+}
+
+.container {
+    display: flex;
+    --flex-flow: column nowrap;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    align-items: center;
+    
+    align-content: center;
+    text-align: initial;
+   
+
+    border: 2px solid;
+
+  }
+
+  .flex-item {
+    width: 500px;
+    height: 200px;
+    border: 2px solid ;
+    border-radius: 25px;
+    background-color: rgba(240, 248, 255, 0.37);
+    align-self: stretch;
+    order: 5;
+    flex-shrink: 2;
+    flex-grow: 2;
+    --flex-basis: 6rem;
+   
+    
+  }
+  .container2 {
+    display: flex;
+    --flex-flow: column nowrap;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    align-items: center;
+    
+    align-content: center;
+    text-align: initial;
+   
+
+    border: 2px solid;
+
+  }
+  #fotinha{
+    border: 2px solid;
+    border-radius: 10000px;
+    width: 150px;
+    height: 150px;
+  }
+  ul{
+    padding: 10px;
+  }
+ #foto{
+  height: 200px;
+  width: 200px;
+  margin-top: -59px;
+ }
+ #foto1{
+  height: 100px;
+  width: 160px;
+  margin-top: -8px;
+ }
+ h2,h3,h4, #title{
+  font-family: 'Josefin Sans', sans-serif;
+ }
+
+ p, #resp{
+  font-family: 'Quicksand', sans-serif;
+ }
+ .container3{
+  display: flex;
+    --flex-flow: column nowrap;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    align-items: center;
+    
+    align-content: center;
+    text-align: initial;
+   
+
+    border: 2px solid;
+    background-color: rgba(240, 248, 255, 0.486);
+
+ }
+img{
+  width: 300px;
+  height: 80px;
+}
+
