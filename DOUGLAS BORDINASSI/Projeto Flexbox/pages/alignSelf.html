@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos Align-Self</title>
+
+    <style>
+        .container{
+            display: flex;
+            max-width: 350px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+        }
+
+        .align-container{
+            align-items: center;
+        }
+
+        .item{
+            background-color: brown;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            margin: 5px;
+        }
+
+        .colum{
+             flex-direction: column;
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .start{
+            align-self: flex-start;
+        }
+
+        .end{
+            align-self: flex-end;
+        }
+
+        .baseline{
+            align-self: baseline;
+        }
+
+        .stretch{
+            align-self: stretch;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+    </style>
+</head>
+<body>
+    <span style="font-size: 1.5rem; font-weight: bold;">ROW</span>
+    <p>Align-self: auto</p>
+    <div class="container align-container">
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+        <div class="item auto">ITEM 4</div>
+    </div>
+    <p>Align-self: mix</p>
+    <div class="container align-container">
+        <div class="item center">AAA</div>
+        <div class="item start">123</div>
+        <div class="item stretch">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+        <div class="item end">ITEM 4</div>
+    </div>
+    <br>
+    <br>
+    <span style="font-size: 1.5rem; font-weight: bold;">COLUMN</span>
+    <p>Align-self: auto</p>
+    <div class="container align-container colum">
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+        <div class="item auto">ITEM 4</div>
+    </div>
+    <p>Align-self: mix</p>
+    <div class="container align-container colum">
+        <div class="item center">AAA</div>
+        <div class="item start">123</div>
+        <div class="item stretch">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+        <div class="item end">ITEM 4</div>
+    </div>
+</body>
+</html>

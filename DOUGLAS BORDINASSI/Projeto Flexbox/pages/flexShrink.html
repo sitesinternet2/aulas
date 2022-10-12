@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos Flex-shrink</title>
+
+    <style>
+        .container {
+            display: flex;
+            border: 1px solid black;
+            max-width: 350px;
+        }
+
+        .item {
+            background-color: orangered;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+            color: white;
+        }
+
+        .s-0 {
+            flex-shrink: 0;
+            flex-basis: 100px;
+        }
+
+        .s-1 {
+            flex-shrink: 1;
+        }
+
+        .s-2{
+            flex-shrink: 2;
+            flex-basis: 100px;
+        }
+
+        .s-3{
+            flex-shrink: 3;
+            flex-basis: 100px;
+        }
+
+        .fg-1 {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Flex-shrink: 1</p>
+    <span class="container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-1 fg-1">B</div>
+        <div class="item s-1 fg-1">C</div>
+        <div class="item s-1 fg-1">D</div>
+        <div class="item s-1 fg-1">E</div>
+    </span>
+    <br>
+    <span class="container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-1 fg-1">B</div>
+        <div class="item s-1 fg-1">C</div>
+        <div class="item s-1 fg-1">D</div>
+        <div class="item s-1 fg-1">E</div>
+        <div class="item s-1 fg-1">E</div>
+        <div class="item s-1 fg-1">E</div>
+        <div class="item s-1 fg-1">E</div>
+        <div class="item s-1 fg-1">E</div>
+        <div class="item s-1 fg-1">E</div>
+        <div class="item s-1 fg-1">E</div>
+    </span>
+    <br>
+    <span class="container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-1 fg-1">B</div>
+        <div class="item s-1 fg-1">orem ipsum dolor sit amet, consectetur adipiscing elit,</div>
+        <div class="item s-1 fg-1">D</div>
+        <div class="item s-1 fg-1">E</div>
+    </span>
+    <p>Flex-shrink: 0 / Basis: 100px</p>
+    <span class="container">
+        <div class="item s-0 fg-1">A</div>
+        <div class="item s-0 fg-1">B</div>
+        <div class="item s-0 fg-1">C</div>
+        <div class="item s-0 fg-1">D</div>
+        <div class="item s-0 fg-1">E</div>
+    </span>
+    <p>Flex-shrink: mix / Basis: 100px</p>
+    <span class="container">
+        <div class="item s-1 fg-1">AAA</div>
+        <div class="item s-2 fg-1">B</div>
+        <div class="item s-2 fg-1">C</div>
+        <div class="item s-3 fg-1">DDD</div>
+        <div class="item s-3 fg-1">EFGHI</div>
+    </span>
+</body>
+
+</html>
