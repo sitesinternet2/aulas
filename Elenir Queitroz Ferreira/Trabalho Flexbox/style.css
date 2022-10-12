@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: #fff;
+    width: 100vw;
+    height: 100vw;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.foto{
+    border-radius: 50%;
+   
+}
+.header{
+    box-shadow: 0 35px 25px rgba(0,0,0,0.05);
+    background: white;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    
+}
+.logo{
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 22px;
+    color: black;
+  
+}
+.quadrado1{
+    width: 200px;
+    height: 200px;
+    border: 3px solid;
+    margin: 20px;
+    font-size: 13px;
+}
+
+.quadrado2{
+    width: 200px;
+    height: 200px;
+    border: 3px solid;
+    margin: 20px;
+    font-size: 13px;
+}
+.quadrado3{
+    width: 200px;
+    height: 200px;
+    border: 3px solid;
+    margin: 20px;
+    font-size: 13px;
+}
+.quadrado4{
+    width: 200px;
+    height: 200px;
+    border: 3px solid;
+    margin: 20px;
+    font-size: 15px;
+}
+    .quadrado5{
+        width: 200px;
+        height: 200px;
+        border: 3px solid;
+        margin: 20px;
+        font-size: 15px;
+    }
+   
+    .quadrado6{
+        width: 200px;
+        height: 200px;
+        border: 3px solid;
+        margin: 20px;
+        font-size: 15px;
+    }
+    .quadrado7{
+        width: 200px;
+        height: 200px;
+        border: 3px solid;
+        margin: 20px;
+        font-size: 19px;
+    }
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+
+}
+
+footer{
+    background: rgb(168, 167, 167);
+    height: 100px;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    
+
+}
+.divfooter{
+    margin-left: 30px;
+}
+    .icons8-linkedin-2 { 
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMDA3OGQ0IiBkPSJNOC40MjEsMTRoMC4wNTJsMCwwQzExLjI2MywxNCwxMywxMiwxMyw5LjVDMTIuOTQ4LDYuOTQ1LDExLjI2Myw1LDguNTI2LDVTNCw2Ljk0NSw0LDkuNQlDNCwxMiw1LjczNiwxNCw4LjQyMSwxNHogTTQsMTdoOXYyNkg0VjE3eiBNNDQsMjYuNWMwLTUuMjQ3LTQuMjUzLTkuNS05LjUtOS41Yy0zLjA1MywwLTUuNzYyLDEuNDQ2LTcuNSwzLjY4NFYxN2gtOXYyNmg5VjI4bDAsMAljMC0yLjIwOSwxLjc5MS00LDQtNHM0LDEuNzkxLDQsNHYxNWg5QzQ0LDQzLDQ0LDI3Ljk1NSw0NCwyNi41eiI+PC9wYXRoPjwvc3ZnPg==') 50% 50% no-repeat;
+        background-size: 100%; }
+
+        .icons8-github { 
+            display: inline-block;
+            width: 48px;
+            height: 48px;
+            background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCAyNCAyNCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij4gICAgPHBhdGggZD0iTTEwLjksMi4xYy00LjYsMC41LTguMyw0LjItOC44LDguN2MtMC41LDQuNywyLjIsOC45LDYuMywxMC41QzguNywyMS40LDksMjEuMiw5LDIwLjh2LTEuNmMwLDAtMC40LDAuMS0wLjksMC4xIGMtMS40LDAtMi0xLjItMi4xLTEuOWMtMC4xLTAuNC0wLjMtMC43LTAuNi0xQzUuMSwxNi4zLDUsMTYuMyw1LDE2LjJDNSwxNiw1LjMsMTYsNS40LDE2YzAuNiwwLDEuMSwwLjcsMS4zLDFjMC41LDAuOCwxLjEsMSwxLjQsMSBjMC40LDAsMC43LTAuMSwwLjktMC4yYzAuMS0wLjcsMC40LTEuNCwxLTEuOGMtMi4zLTAuNS00LTEuOC00LTRjMC0xLjEsMC41LTIuMiwxLjItM0M3LjEsOC44LDcsOC4zLDcsNy42YzAtMC40LDAtMC45LDAuMi0xLjMgQzcuMiw2LjEsNy40LDYsNy41LDZjMCwwLDAuMSwwLDAuMSwwQzguMSw2LjEsOS4xLDYuNCwxMCw3LjNDMTAuNiw3LjEsMTEuMyw3LDEyLDdzMS40LDAuMSwyLDAuM2MwLjktMC45LDItMS4yLDIuNS0xLjMgYzAsMCwwLjEsMCwwLjEsMGMwLjIsMCwwLjMsMC4xLDAuNCwwLjNDMTcsNi43LDE3LDcuMiwxNyw3LjZjMCwwLjgtMC4xLDEuMi0wLjIsMS40YzAuNywwLjgsMS4yLDEuOCwxLjIsM2MwLDIuMi0xLjcsMy41LTQsNCBjMC42LDAuNSwxLDEuNCwxLDIuM3YyLjZjMCwwLjMsMC4zLDAuNiwwLjcsMC41YzMuNy0xLjUsNi4zLTUuMSw2LjMtOS4zQzIyLDYuMSwxNi45LDEuNCwxMC45LDIuMXoiPjwvcGF0aD48L3N2Zz4=') 50% 50% no-repeat;
+            background-size: 100%; }
+
+            .p{
+                display: flex;
+               flex-wrap: wrap;
+              justify-content: center;
+               align-items: center;
+               flex-direction: row;
+            
+
+            }
+
+                       
+

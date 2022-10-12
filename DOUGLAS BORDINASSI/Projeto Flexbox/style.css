@@ -1,0 +1,151 @@
+/* @import url(fonts/fonts_roboto.css); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Sora";
+  font-weight: 200;
+}
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  /* font-weight: 700; */
+}
+.container {
+  width: 100%;
+  max-width: 996px;
+  margin: 0 auto;
+}
+
+.header .nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+.header .nav-items div:nth-child(2) {
+  flex-grow: 1;
+
+  display: flex;
+  align-items: center;
+}
+.header .nav-items div:nth-child(2) div {
+  flex-grow: 1;
+  display: flex;
+  gap: 0.9rem;
+}
+.header .nav-items div:nth-child(2) ul {
+  display: flex;
+}
+.header .nav-items div:nth-child(2) ul li a img {
+  height: 30px;
+  width: 30px;
+
+  flex-grow: 1;
+}
+
+.header .nav-items img {
+  width: 6rem;
+  height: 6rem;
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+
+  border-radius: 50%;
+  overflow: hidden;
+}
+.header .nav-items img:hover {
+  transition: all ease-in-out 0.1s;
+  transform: scale(1.05);
+
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+main {
+  height: 100%;
+  margin-top: 5rem;
+}
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main section > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 0.8rem !important;
+}
+main section a {
+  flex-grow: 1;
+}
+main section a .item-pages {
+  border: 1px solid lightgray;
+  padding: 1rem;
+
+  background: rgba(255, 255, 255, 0.3);
+
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  color: black;
+  /* width: 10rem; */
+  width: 100%;
+  height: 10rem;
+  /* flex-grow: 1; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section a .item-pages:hover {
+  transition: all ease-in-out 0.1s;
+  transform: scale(1.05);
+
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+footer div {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+
+  gap: 2rem;
+
+  margin-top: 2rem;
+}
+footer .logo-fatec img,
+footer .logo-cps img {
+  height: 60px;
+}
+.copy {
+  max-width: 20rem;
+}

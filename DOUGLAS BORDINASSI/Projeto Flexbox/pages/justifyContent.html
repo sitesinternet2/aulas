@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos Justify Content</title>
+
+    <style>
+        .container{
+            max-width: 400px;
+            border: 1px solid black;
+            margin: 0;
+            margin-bottom: 10px;
+            display: flex;
+        }
+
+        .container-column{
+            max-width: 400px;
+            border: 1px solid black;
+            margin: 0;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            min-height: 300px;
+            min-width: 700px;    
+        }
+
+        .item{
+            background-color: blueviolet;
+            color: white;
+            text-align: center;
+            line-height: 50px;
+            margin: 5px;
+            height: 40px;
+        }
+
+        span{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .flex-start{
+            justify-content: flex-start;
+        }
+
+        .flex-end{
+            justify-content: flex-end;
+        }
+
+        .center{
+            justify-content: center;
+        }
+
+        .space-between{
+            justify-content: space-between;
+        }
+
+        .space-around{
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <span>ROW</span>
+    <br>
+    <span>Flex-start</span>
+    <section class="container flex-start">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro Item</div>
+    </section>
+
+    <span>Flex-end</span>
+    <section class="container flex-end">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro Item</div>
+    </section>
+
+    <span>Center</span>
+    <section class="container center">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro Item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <span>Space-between</span>
+    <section class="container space-between">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro Item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <span>Space-around</span>
+    <section class="container space-around">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro Item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+    <br>
+    <br>
+    <span>COLUMN</span>
+    <br>
+    <span>Flex-start</span>
+    <section class="container-column flex-start">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro Item</div>
+    </section>
+
+    <span>Flex-end</span>
+    <section class="container-column flex-end">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro Item</div>
+    </section>
+
+    <span>Center</span>
+    <section class="container-column center">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro Item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <span>Space-between</span>
+    <section class="container-column space-between">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro Item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <span>Space-around</span>
+    <section class="container-column space-around">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro Item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+</body>
+</html>
