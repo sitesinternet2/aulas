@@ -1,0 +1,247 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 15px;
+	margin: 150px;
+    background-color: #0D0D0D;
+	text-align: center;
+	align-items: center;
+	display: block;
+	user-select: none;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 45px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 250;
+}
+
+h1, h2, h3 {
+    z-index: 999;
+}
+
+a {
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 250;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.name-profile {
+    margin-top: 23px;
+}
+
+.ra {
+    font-weight: 200;
+    font-family: 'Poppins';
+    opacity: 70%;
+}
+
+.card {
+	padding: 5px 10px;
+	margin: 40px;
+	align-items: center;
+	margin: auto;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	text-decoration: none;
+	padding-top: 75px;
+    
+    width: 370px;
+	height: 370px;
+	text-align: center;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.035) 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+	align-items: center;
+}
+
+.foto-profile {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-top: -35%;
+    filter: drop-shadow(0px 30px 25px rgba(0, 0, 0, 0.3));
+}
+
+.box-card {
+    padding: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background-color: #000000;
+    opacity: 20%;
+    margin-top: 43px;
+    margin-left: 28px;
+    margin-right: 28px;
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.icon-github {
+    height: 24px;
+    width: 24px;
+}
+
+.icon-linkedin {
+    height: 18px;
+    width: 20px;
+}
+
+.section-container {
+    margin-top: 90px;
+}
+
+.section-flex-direction {
+    margin-top: 200px;
+}
+
+.container {
+    height: 100px;
+    
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.028) 100%);
+    backdrop-filter: blur(10px);
+
+    border-radius: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.span1{
+    width: 80px;
+    height: 70px;
+
+    background: #FFFFFF;
+    opacity: 50%;
+    backdrop-filter: blur(10px);
+
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.span2{
+    width: 80px;
+    height: 70px;
+
+    background: #FFFFFF;
+    opacity: 40%;
+    backdrop-filter: blur(10px);
+
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.span3{
+    width: 80px;
+    height: 70px;
+
+    background: #FFFFFF;
+    opacity: 30%;
+    backdrop-filter: blur(10px);
+
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.span4{
+    width: 80px;
+    height: 70px;
+
+    background: #FFFFFF;
+    opacity: 20%;
+    backdrop-filter: blur(10px);
+
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.span5{
+    width: 80px;
+    height: 70px;
+
+    background: #FFFFFF;
+    opacity: 10%;
+    backdrop-filter: blur(10px);
+
+    border-radius: 10px;
+    margin: 15px;
+}
+
+
+.container-text-main {
+    margin-top: 117px;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+    height: 100px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.028) 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.flex-direction-row-reverse {
+    flex-direction: row-reverse;
+    height: 100px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.028) 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+    height: 100px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.028) 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.flex-direction-column-reverse {
+    flex-direction: column-reverse;
+    height: 100px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.028) 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 45px;
+}
