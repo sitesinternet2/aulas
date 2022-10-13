@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLex-Box</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+   <div class="container">
+    <img src="img/svg_20221010_113300_0000.svg" alt="Jorge">
+    <h1>Jorge Henrique Bordinaso <br><br> RA: 022 083221 1042 <br><br> Sistemas para internet</h1>
+    
+   </div>
+
+<nav id="git" class="redegit">
+    <a href="https://github.com/JorgeBordinasso" target="_blank">
+       <img src="img/github.svg" alt="">
+    </a>
+</nav>
+
+<nav id="linkdin" class="redegit">
+    <a href="https://www.linkedin.com/in/jorgehbordinasso/" target="_blank">
+       <img src="img/linkedin.svg" alt="">
+    </a>
+</nav>
+
+
+<h2>Efeitos do Flex-Box</h2>
+
+<br>
+<br>
+
+
+  <h3>Display Flex:</h3>
+  <p>Esta propriedade define um flex container; inline ou block dependendo dos valores passados. Coloca todos os elementos-filhos diretos num contexto Flex.</p>
+
+  <div class="flex-container1">
+
+    <div class="caixa">Caixa 1</div>
+    <div class="caixa">Caixa 2</div>
+    <div class="caixa">Caixa 3</div>
+    <div class="caixa">Caixa 4</div>
+ </div>
+
+<br><br><br><br>
+
+<p>flex-direction: Estabelece o eixo principal, definindo assim a direção em que os flex items são alinhados no flex container. O Flexbox é (com exceção de um wrapping opcional) um conceito de leiaute de uma só direção. Pense nos flex items inicialmente posicionaids ou em linhas horizontais ou em colunas verticais<p>
+ <h3>Flex-Direction: Row</h3>
+
+  <div class="flex-container2">
+
+    <div class="caixa">Caixa 1</div>
+    <div class="caixa">Caixa 2</div>
+    <div class="caixa">Caixa 3</div>
+    <div class="caixa">Caixa 4</div>
+ </div>
+
+ <h3>Flex-Direction: Row-Reverse</h3>
+
+ <div class="flex-container3">
+
+   <div class="caixa">Caixa 1</div>
+   <div class="caixa">Caixa 2</div>
+   <div class="caixa">Caixa 3</div>
+   <div class="caixa">Caixa 4</div>
+</div>
+
+<h3>Flex-Direction: Column</h3>
+
+<div class="flex-container4">
+
+  <div class="caixa">Caixa 1</div>
+  <div class="caixa">Caixa 2</div>
+  <div class="caixa">Caixa 3</div>
+  <div class="caixa">Caixa 4</div>
+</div>
+
+<h3>Flex-Direction: Column-Reverse:</h3>
+
+<div class="flex-container5">
+
+  <div class="caixa">Caixa 1</div>
+  <div class="caixa">Caixa 2</div>
+  <div class="caixa">Caixa 3</div>
+  <div class="caixa">Caixa 4</div>
+</div>
+
+<br><br><br>
+
+<p>Flex-wrap: por padrão, os flex items vão todos tentar se encaixar em uma só linha. Com esta propriedade você pode modificar esse comportamento e permitir que os ítens quebrem para uma linha seguinte conforme for necessário.</p>
+<h3>Flex-rap: wrap</h3>
+<p>(os itens quebram em diversas linhas, de cima para baixo)</p>
+
+<div class="flex-container6">
+
+    <div class="caixa">Caixa 1</div>
+    <div class="caixa">Caixa 2</div>
+    <div class="caixa">Caixa 3</div>
+    <div class="caixa">Caixa 4</div>
+    <div class="caixa">Caixa 5</div>
+    <div class="caixa">Caixa 6</div>
+    <div class="caixa">Caixa 7</div>
+    <div class="caixa">Caixa 8</div>
+  </div>
+
+  <h3>Flex-wrap: nowrap</h3>
+  <p>(todos os itens ficam na mesma linha)</p>
+
+<div class="flex-container7">
+
+    <div class="caixa">Caixa 1</div>
+    <div class="caixa">Caixa 2</div>
+    <div class="caixa">Caixa 3</div>
+    <div class="caixa">Caixa 4</div>
+    <div class="caixa">Caixa 5</div>
+    <div class="caixa">Caixa 6</div>
+    <div class="caixa">Caixa 7</div>
+    <div class="caixa">Caixa 8</div>
+  </div>
+
+  <h3>Flex wrap-reverse:</h3>
+  <p>(todos os itens ficam na mesma linha)</p>
+
+<div class="flex-container7">
+
+    <div class="caixa">Caixa 1</div>
+    <div class="caixa">Caixa 2</div>
+    <div class="caixa">Caixa 3</div>
+    <div class="caixa">Caixa 4</div>
+    <div class="caixa">Caixa 5</div>
+    <div class="caixa">Caixa 6</div>
+    <div class="caixa">Caixa 7</div>
+    <div class="caixa">Caixa 8</div>
+  </div>
+
+  <br><br><br>
+
+  <h3>Flex-flow:</h3>
+  <p>(Esta propriedade é apenas um atalho para flex-direction e flex-wrap, nos permitindo declarar o valor de ambos em uma única propriedade. Os valores podem ser: row nowrap | row wrap | column nowrap | column wrap;)</p>
+  
+  <h3>Flex-flow: row nowrap:</h3>
+<div class="flex-container8">
+
+    <div class="caixa">Caixa 1</div>
+    <div class="caixa">Caixa 2</div>
+    <div class="caixa">Caixa 3</div>
+    <div class="caixa">Caixa 4</div>
+    <div class="caixa">Caixa 5</div>
+    <div class="caixa">Caixa 6</div>
+    <div class="caixa">Caixa 7</div>
+    <div class="caixa">Caixa 8</div>
+  </div>
+
+
+  <h3>Flex-flow: row wrap:</h3>
+<div class="flex-container9">
+
+    <div class="caixa">Caixa 1</div>
+    <div class="caixa">Caixa 2</div>
+    <div class="caixa">Caixa 3</div>
+    <div class="caixa">Caixa 4</div>
+    <div class="caixa">Caixa 5</div>
+    <div class="caixa">Caixa 6</div>
+    <div class="caixa">Caixa 7</div>
+    <div class="caixa">Caixa 8</div>
+  </div>
+
+  <h3>Flex-flow: column nowrap:</h3>
+  <div class="flex-container10">
+  
+      <div class="caixa">Caixa 1</div>
+      <div class="caixa">Caixa 2</div>
+      <div class="caixa">Caixa 3</div>
+      <div class="caixa">Caixa 4</div>
+      <div class="caixa">Caixa 5</div>
+      <div class="caixa">Caixa 6</div>
+      <div class="caixa">Caixa 7</div>
+      <div class="caixa">Caixa 8</div>
+    </div>
+
+    <h3>Flex-flow: column wrap:</h3>
+    <div class="flex-container11">
+    
+        <div class="caixa">Caixa 1</div>
+        <div class="caixa">Caixa 2</div>
+        <div class="caixa">Caixa 3</div>
+        <div class="caixa">Caixa 4</div>
+        <div class="caixa">Caixa 5</div>
+        <div class="caixa">Caixa 6</div>
+        <div class="caixa">Caixa 7</div>
+        <div class="caixa">Caixa 8</div>
+      </div>
+
+<br><br><br>
+
+<h3>justify-content</h3>
+<p>Esta propriedade define o alinhamento dos ítens ao longo do eixo principal. Ajuda a distribuir o espaço livre que sobrar no container tanto se todos os flex items em uma linha são inflexíveis, ou são flexíveis mas já atingiram seu tamanho máximo. Também exerce algum controle sobre o alinhamento de ítens quando eles ultrapassam o limite da linha. Os valores podem ser: </p>
+<p>lex-start (padrão): os ítens são alinhados junto à borda de início (start) de acordo com qual for a flex-direction do container.</p>   
+<p>flex-end: os ítens são alinhados junto à borda final (end) de acordo com qual for a flex-direction do container.</p>
+<p>start: os ítens são alinhados junto à borda de início da direção do writing-mode (modo de escrita).</p>
+<p>end: os ítens são alinhados junto à borda final da direção do writing-mode (modo de escrita).</p>   
+<p>left: os ítens são alinhados junto à borda esquerda do container, a não ser que isso não faça sentido com o flex-direction que estiver sendo utilizado. Nesse caso, se comporta como start.</p>
+<p>right: os ítens são alinhados junto à borda direita do container, a não ser que isso não faça sentido com o flex-direction que estiver sendo utilizado. Nesse caso, se comporta como start.</p>
+<p>space-between: os ítens são distribuídos de forma igual ao longo da linha; o primeiro ítem junto à borda inicial da linha, o último junto à borda final da linha.</p>
+<p>space-around: os ítens são distribuídos na linha com o mesmo espaçamento entre eles. Note que, visualmente, o espaço pode não ser igual, uma vez que todos os ítens tem a mesma quantidade de espaço dos dois lados: o primeiro item vai ter somente uma unidade de espaço junto à borda do container, mas duas unidades de espaço entre ele e o próximo ítem, pois o próximo ítem também tem seu próprio espaçamento que está sendo aplicado.</p>
+<p>space-evenly: os ítens são distribuídos de forma que o espaçamento entre quaisquer dois itens da linha (incluindo entre os ítens e as bordas) seja igual.</p>
+<br>
+<p> <h4>Ressalta-se que:</h4> O suporte dado pelos navegadores para estes valores é difuso. Por exemplo, space-between não tem suporte em nenhuma versão do Edge (até a elaboração deste tutorial) e start/end/left/right ainda não foram implementados no Chrome. Para tabelas detalhadas, consulte o MDN. Os valores mais seguros são flex-start, flex-end e center.
+
+    Também existem duas palavras-chave adicionais que você pode usar em conjunto com estes valores: safe e unsafe. Safe garante que, independente da forma que você faça esse tipo de posicionamento, não seja possível "empurrar" um elemento e fazer com que ele seja renderizado para fora da tela (por exemplo, acima do topo), de uma forma que faça com que o conteúdo seja impossível de movimentar com a rolagem da tela (o CSS chama isso de "perda de dados").</p>
+
+
+<h3>Justify-content: flex-star:</h3>
+    <div class="flex-container12">
+    
+        <div class="caixa">Caixa 1</div>
+        <div class="caixa">Caixa 2</div>
+        <div class="caixa">Caixa 3</div>
+        <div class="caixa">Caixa 4</div>
+    </div>
+
+<h3>Justify-content: flex-end:</flex-end></h3>
+    <div class="flex-container13">
+    
+        <div class="caixa">Caixa 1</div>
+        <div class="caixa">Caixa 2</div>
+        <div class="caixa">Caixa 3</div>
+        <div class="caixa">Caixa 4</div>
+       
+    </div>
+
+<h3>Justify-content: center:</h3>
+    <div class="flex-container14">
+    
+        <div class="caixa">Caixa 1</div>
+        <div class="caixa">Caixa 2</div>
+        <div class="caixa">Caixa 3</div>
+        <div class="caixa">Caixa 4</div>
+    
+    </div>
+
+<h3>Justify-content: space-between:</h3>
+    <div class="flex-container15">
+    
+        <div class="caixa">Caixa 1</div>
+        <div class="caixa">Caixa 2</div>
+        <div class="caixa">Caixa 3</div>
+        <div class="caixa">Caixa 4</div>
+       
+    </div>
+
+<h3>Justify-content: space-arpound:</h3>
+    <div class="flex-container16">
+    
+        <div class="caixa">Caixa 1</div>
+        <div class="caixa">Caixa 2</div>
+        <div class="caixa">Caixa 3</div>
+        <div class="caixa">Caixa 4</div>
+       
+    </div>
+
+<h3>Justify-content: space-evenly:</h3>
+    <div class="flex-container17">
+    
+        <div class="caixa">Caixa 1</div>
+        <div class="caixa">Caixa 2</div>
+        <div class="caixa">Caixa 3</div>
+        <div class="caixa">Caixa 4</div>
+       
+    </div>
+    <br><br><br>
+
+<h3>Align-items:</h3>
+<p>Define o comportamento padrão de como flex items são alinhados de acordo com o eixo transversal (cross axis). De certa forma, funciona de forma similar ao justify-content, porém no eixo transversal (perpendicular ao eixo principal).</p>
+ <p>Ovalores para align itens são: stretch | flex-start | flex-end | center | baseline;</p>
+ <br>
+
+ <h3>Align-items: stretch:</h3>
+ <p>Estica os ítens para preencher o container, respeitando o min-width/max-width).</p>
+    <div class="flex-container18">
+    
+    <div class="caixa">Caixa 1</div>
+    <div class="caixa">Caixa 2</div>
+    <div class="caixa">Caixa 3</div>
+    <div class="caixa">Caixa 4</div>
+   
+    </div>
+
+ <h3>Align-items: flex-start :</h3>
+ <p>Os ítens são posicionados no início do eixo transversal. A diferença entre eles é sutil e diz respeito às regras de flex-direction ou writing-mode.</p>
+    <div class="flex-container19">
+    
+    <div class="caixa">Caixa 1</div>
+    <div class="caixa">Caixa 2</div>
+    <div class="caixa">Caixa 3</div>
+    <div class="caixa">Caixa 4</div>
+   
+    </div>
+
+<h3>Align-items: flex-end :</h3>
+    <p>Os itens são deslocadas para o final do eixo transversal.</p>
+       <div class="flex-container20">
+       
+       <div class="caixa">Caixa 1</div>
+       <div class="caixa">Caixa 2</div>
+       <div class="caixa">Caixa 3</div>
+       <div class="caixa">Caixa 4</div>
+      
+       </div>
+
+<h3>Align-items: center:</h3>
+    <p>Os ítens são centralizados no eixo central.</p>
+        <div class="flex-container21">
+          
+          <div class="caixa">Caixa 1</div>
+          <div class="caixa">Caixa 2</div>
+          <div class="caixa">Caixa 3</div>
+          <div class="caixa">Caixa 4</div>
+         
+        </div>
+
+<h3>Align-items: baseline:</h3>
+    <p>Os tens são alinhados de acordo com suas baselines.</p>
+        <div class="flex-container22">
+          
+          <div class="caixa">Caixa 1</div>
+          <div class="caixa">Caixa 2</div>
+          <div class="caixa">Caixa 3</div>
+          <div class="caixa">Caixa 4</div>
+         
+        </div>
+<br><br><br>
+
+
+
+ <h3>Align-content:</h3>
+ <p>Erganiza as linhas dentro de um flex container quando há espaço extra no eixo transversal, similar ao modo como justify-content alinha ítens individuais dentro do eixo principal.
+
+    Importante: Esta propriedade não tem efeito quando há somente uma linha de flex items no container. Os valores podem ser: flex-start | flex-end | center | space-between | space-around | stretch| space-evenly;</p>
+  <br>  
+    
+<h3>Align-content:flex-start:</h3>   
+    <p>Os ítens alinhados com o início do container. O valor (com maior suporte dos navegadores) flex-start se guia pela flex-direction, enquanto start se guia pela direção do writing-mode.</p>
+    
+    <div class="flex-container23">
+    
+        <div class="caixa">Caixa 1</div>
+        <div class="caixa">Caixa 2</div>
+        <div class="caixa">Caixa 3</div>
+        <div class="caixa">Caixa 4</div>
+   
+    </div>
+
+<h3>Align-content: flex-end::</h3>   
+    <p>ítens alinhados com o final do container. O valor (com maior suporte dos navegadores) flex-end se guia pela flex-direction, enquanto end se guia pela direção do writing-mode.</p>
+        
+    <div class="flex-container24">
+        
+        <div class="caixa">Caixa 1</div>
+        <div class="caixa">Caixa 2</div>
+        <div class="caixa">Caixa 3</div>
+        <div class="caixa">Caixa 4</div>
+       
+    </div>
+
+<h3>Align-content: center:</h3>   
+    <p>Os ítens são centralizados no container.</p>
+            
+        <div class="flex-container25">
+            
+            <div class="caixa">Caixa 1</div>
+            <div class="caixa">Caixa 2</div>
+            <div class="caixa">Caixa 3</div>
+            <div class="caixa">Caixa 4</div>
+           
+        </div>
+
+ <h3>Align-content: space-between</h3>   
+    <p> Os ítens distribuídos igualmente; a primeira linha junto ao início do container e a última linha junto ao final do container.</p>
+                    
+        <div class="flex-container26">
+                    
+            <div class="caixa">Caixa 1</div>
+            <div class="caixa">Caixa 2</div>
+            <div class="caixa">Caixa 3</div>
+            <div class="caixa">Caixa 4</div>
+                   
+        </div>
+
+<h3>Align-content: space-around:</h3>   
+    <p>  Os ítens distribuídos igualmente com o mesmo espaçamento entre cada linha.</p>
+                        
+        <div class="flex-container27">
+                        
+            <div class="caixa">Caixa 1</div>
+            <div class="caixa">Caixa 2</div>
+            <div class="caixa">Caixa 3</div>
+            <div class="caixa">Caixa 4</div>
+                       
+        </div>
+
+<h3>Align-content: space-evenly:</h3>   
+    <p>  Os ítens distribuídos igualmente com o mesmo espaçamento entre eles.</p>
+                        
+        <div class="flex-container28">
+                        
+            <div class="caixa">Caixa 1</div>
+            <div class="caixa">Caixa 2</div>
+            <div class="caixa">Caixa 3</div>
+            <div class="caixa">Caixa 4</div>
+                       
+        </div>
+
+<h3>Align-content: stretch:</h3>   
+    <p>  ítens em cada linha esticam para ocupar o espaço remanescente entre elas.</p>
+                        
+        <div class="flex-container29">
+                        
+            <div class="caixa">Caixa 1</div>
+            <div class="caixa">Caixa 2</div>
+            <div class="caixa">Caixa 3</div>
+            <div class="caixa">Caixa 4</div>
+                       
+        </div>
+
+
+<h3>Propriedades para elementos filhos</h3>
+<p>Abaixo vemos propriedades que devem ser declaradas tendo como seletor os elementos-filhos, ou seja:
+
+    <div class="flex-container">
+      <div class="flex-item">1</div>
+      <div class="flex-item">2</div>
+      <div class="flex-item">3</div>
+    </div>
+  Isso significa que, onde existe um elemento-pai com propriedade flex (o flex-container), é possível atribuir propriedades flex específicas também para as elementos-filhos (flex-item).
+  
+  Você pode definir as propriedades abaixo para apenas um dos elementos-filhos através de um identificador, como uma classe específica.</p>
+
+  <h3>Order</h3>
+  <p>Determina a ordem em que os elementos aparecerão. Por padrão os flex items são dispostos na tela na ordem do código. Mas a propriedade order controla a ordem em que aparecerão no container.</p>
+  <br><br>
+
+  <h3>flex-grow</h3>
+  <p>Define a habilidade de um flex item de crescer, caso necessário. O valor dessa propriedade é um valor numérico sem indicação de unidade, que serve para cálculo de proporção. Este valor dita a quantidade de espaço disponível no container que será ocupado pelo item.</p>
+  <br><br>
+
+  <h3>flex-shrink</h3>
+  <p>Define a habilidade de um flex item de encolher, caso necessário.
+<br><br>
+
+<h3>flex-basis</h3>
+<p>Define o tamanho padrão para um elemento antes que o espaço remanescente do container seja distribuído. Pode ser um comprimento (por exemplo, 20%, 5rem, etc) ou uma palavra-chave. A palavra-chave auto significa "observe minhas propriedades de altura ou largura" (o que era feito pela palavra-chave main-size, que foi depreciada). A palavra-chave content significa "estabeleça o tamanho com base no conteúdo interno do ítem" - essa palavra-chave ainda não tem muito suporte, então não é fácil de ser testada, assim como suas relacionadas: max-content, min-content e fit-content.</p>
+<br><br>
+
+<h3>flex</h3>
+<p>Esta é a propriedade shorthand para flex-grow, flex-shrink e flex-basis, combinadas. O segundo e terceiro parâmetros (flex-shrink e flex-basis) são opcionais. O padrão é 0 1 auto, mas se você definir com apenas um número, é equivalente a 0 1.</p>
+<br><br>
+
+<h3></h3>
+
+<h3>align-self</h3>
+<p>Permite que o alinhamento padrão (ou o que estiver definido por align-items) seja sobrescrito para ítens individuais.
+
+    Por favor veja a explicação da propriedade align-items para entender quais são os possíveis valores.</p>
+  </p>
+</body>
+</html>
