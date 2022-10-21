@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    list-style: 0;
+}
+
+/* acima eu zerei as medidas da pagina para que não aja nenhum erro durante o processo. */
+
+/* a baixo tem coisas basicas de css, formatação e tamanho de items. */
+
+.logo {
+    border-radius: 100%;
+
+    height: 100px;
+    width: 100px;
+
+    margin-top: 10px;
+    margin: 10px;
+
+}
+
+.foto {
+    border-radius: 100%;
+
+    height: 100px;
+    width: 100px;
+}
+
+.content {
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 250px;
+    margin-top: 10px;
+
+    text-align: center;
+
+}
+
+/* eu decidi por separar cada parte do site com o um nome proprio, pra ficar mais facil pra mim, a parte de cima do site eu chameu de top. */
+/* defini que o top vai ter um display flex, oque altomaticamente faz com que o itens fiquem alinhados lado a lado */
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+/* aqui na parte do mid (meio) eu tive que fazer algumas coisas a mais, como adicionar o flex-direction, ele me permite decidir qualç a direção de alinhamento dos items */
+/* como eu disse logo a cima a propriedade de flex, faz com que os itens fiquem alinhados lado a lado. porém com o flex-directon eu posso decidir com os itens ficarão alinhados. */
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* abaixo somente CSS basico e coisas que eu já expliquei. */
+
+
+.efeito {
+
+    border: 1px solid red;
+    border-radius: 5px;
+
+    width: 120px;
+    height: 30px;
+
+    margin-top: 10px;
+
+    text-align: center;
+}
+
+.cube {
+
+    border: 1px solid red;
+
+    width: 100px;
+    height: 100px;
+
+    margin-top: 10px;
+}
+
+.efect {
+    width: 100px;
+    height: 100px;
+}
+
+
+.foot {
+
+    width: 1316px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CPS {
+    width: 100px;
+}
