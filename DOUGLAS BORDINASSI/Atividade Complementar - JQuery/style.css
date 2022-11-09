@@ -1,0 +1,137 @@
+/* @import url(fonts/fonts_roboto.css); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Sora";
+  font-weight: 200;
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%);
+
+  /* background: rgb(0, 36, 22);
+  background: linear-gradient(90deg, rgba(0, 36, 22, 1) 1%, rgba(12, 237, 201, 1) 18%, rgba(0, 212, 255, 1) 100%); */
+  /* color: #fff; */
+}
+
+main {
+  max-width: 1090px;
+  display: flex;
+  flex-flow: column nowrap;
+
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  gap: 5rem;
+}
+
+main h1 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main section button {
+  height: 100px;
+  width: 100px;
+
+  border: 1px solid lightgray;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.41);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.8px);
+  -webkit-backdrop-filter: blur(2.8px);
+  border: 1px solid rgba(255, 255, 255, 0.19);
+
+
+}
+
+main section button:hover {
+  transition: all ease-in-out 0.1s;
+  transform: scale(1.05);
+
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+main section p {
+  text-align: justify;
+  text-transform: uppercase;
+  text-shadow: none;
+  font-weight: 700;
+}
+
+.dispNone,
+.categ-item {
+  display: none;
+}
+
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+  gap: .9rem;
+}
+
+.beneficio {
+  display: flex;
+  flex-direction: column;
+}
+
+.beneficio-item {
+  border: 1px solid #fff;
+  padding: .9rem;
+  border-radius: 10px;
+  margin-bottom: 7px;
+
+  max-width: 70%;
+
+  /* From https://css.glass */
+  /* background: rgba(255, 255, 255, 0.11);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.1px);
+  -webkit-backdrop-filter: blur(2.1px);
+  border: 1px solid rgba(255, 255, 255, 0.3); */
+
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.beneficio-item:last-child {
+  margin-bottom: 0;
+}
+
+.beneficio-item-direita {
+  align-self: flex-end;
+}
+
+.tipos {
+  display: flex;
+  flex-direction: column;
+  gap: .9rem;
+  margin-bottom: 10rem;
+}
+
+.categ-item {
+  display: flex;
+  /* border-bottom: 1px solid #fff; */
+  padding: 10px;
+
+  /* border-top: 1px solid #fff; */
+
+  border: 1px solid #fff;
+  border-radius: 50px 15px 50px 15px;
+}
+
+footer span {
+  text-decoration: none;
+  font-size: .7rem;
+}
